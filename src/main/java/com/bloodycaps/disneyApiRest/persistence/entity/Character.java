@@ -10,7 +10,6 @@ public class Character {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_characters")
     private Integer idCharacter;
-
     private String name;
     private String image;
     private Integer age;
